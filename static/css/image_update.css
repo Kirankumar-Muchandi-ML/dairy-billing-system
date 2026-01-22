@@ -1,0 +1,18 @@
+/* Updated styles for real images */
+.milk-image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    border: 3px solid #ddd;
+    transition: all 0.3s ease;
+}
+
+.milk-image img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+    border-color: #764ba2;
+}

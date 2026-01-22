@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="90" fill="#696969"/>
+  <circle cx="70" cy="80" r="10" fill="#000"/>
+  <circle cx="130" cy="80" r="10" fill="#000"/>
+  <ellipse cx="100" cy="120" rx="30" ry="20" fill="#a9a9a9"/>
+  <circle cx="90" cy="115" r="5" fill="#000"/>
+  <circle cx="110" cy="115" r="5" fill="#000"/>
+  <path d="M 50 60 Q 30 30 40 50" stroke="#000" stroke-width="4" fill="none"/>
+  <path d="M 150 60 Q 170 30 160 50" stroke="#000" stroke-width="4" fill="none"/>
+  <text x="100" y="180" font-size="18" text-anchor="middle" fill="#000" font-weight="bold">BUFFALO</text>
+</svg>

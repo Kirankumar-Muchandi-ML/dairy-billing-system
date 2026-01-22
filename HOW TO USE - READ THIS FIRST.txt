@@ -1,0 +1,155 @@
+================================================================================
+                    KIRAN DAIRY - MILK BILLING SYSTEM
+                         Simple Setup Guide
+================================================================================
+
+📌 FOR DAIRY OWNERS (NO CODING KNOWLEDGE NEEDED!)
+
+This is a simple web application to manage your dairy milk billing.
+Just follow these easy steps:
+
+================================================================================
+STEP 1: INSTALL PYTHON (ONE TIME ONLY)
+================================================================================
+
+Before using this application, you need Python installed on your computer.
+
+🪟 FOR WINDOWS USERS:
+   1. Go to: https://www.python.org/downloads/
+   2. Click "Download Python" (latest version)
+   3. Run the downloaded file
+   4. ⚠️ IMPORTANT: Check the box "Add Python to PATH"
+   5. Click "Install Now"
+   6. Wait for installation to complete
+
+🐧 FOR LINUX USERS:
+   Python is usually already installed. Open terminal and type:
+   sudo apt install python3 python3-pip
+
+================================================================================
+STEP 2: INSTALL THE APPLICATION (ONE TIME ONLY)
+================================================================================
+
+🪟 FOR WINDOWS:
+   1. Double-click the file: INSTALL.bat
+   2. Wait for installation to complete
+   3. Press any key to close
+
+🐧 FOR LINUX:
+   1. Right-click in the folder and select "Open Terminal"
+   2. Type: ./install.sh
+   3. Press Enter and wait
+
+================================================================================
+STEP 3: RUN THE APPLICATION (EVERY TIME YOU WANT TO USE IT)
+================================================================================
+
+🪟 FOR WINDOWS:
+   1. Double-click: START_DAIRY_APP.bat
+   2. A black window will open (don't close it!)
+   3. Your web browser will automatically open the application
+   4. If browser doesn't open, go to: http://127.0.0.1:5000
+
+🐧 FOR LINUX:
+   1. Double-click: start_dairy_app.sh
+   2. Or open terminal and type: ./start_dairy_app.sh
+   3. Open your web browser and go to: http://127.0.0.1:5000
+
+================================================================================
+STEP 4: USE THE APPLICATION
+================================================================================
+
+1. Select Member Name from dropdown
+2. Select Milk Type (Cow or Buffalo)
+3. Select Fat Content (%)
+4. Enter Quantity in Liters
+5. Click "Calculate Price"
+6. View the bill
+7. Click "Print Bill" to print or save as PDF
+
+================================================================================
+STEP 5: STOP THE APPLICATION
+================================================================================
+
+🪟 FOR WINDOWS:
+   Close the black window (command prompt)
+
+🐧 FOR LINUX:
+   Press Ctrl+C in the terminal
+
+================================================================================
+HOW TO ADD/EDIT MEMBERS
+================================================================================
+
+1. Go to the "data" folder
+2. Open "member_name.txt" with Notepad (Windows) or Text Editor (Linux)
+3. Add member names (one per line)
+4. Save the file
+5. Restart the application
+
+Example:
+Rajesh Kumar
+Priya Sharma
+Amit Patel
+
+================================================================================
+HOW TO CHANGE PRICES
+================================================================================
+
+1. Go to the "data" folder
+2. Open "fat_price.txt" with Notepad (Windows) or Text Editor (Linux)
+3. Edit prices in format: fat%,price
+4. Save the file
+5. Restart the application
+
+Example:
+3.0,45
+3.5,48
+4.0,50
+4.5,52
+5.0,55
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+❌ Problem: "Python is not recognized"
+   ✅ Solution: Reinstall Python and check "Add Python to PATH"
+
+❌ Problem: Application doesn't start
+   ✅ Solution: Make sure you ran INSTALL.bat first
+
+❌ Problem: Browser shows error
+   ✅ Solution: Check if the black window is still open
+
+❌ Problem: Images not showing
+   ✅ Solution: Press Ctrl+Shift+R in browser to refresh
+
+❌ Problem: Members not showing
+   ✅ Solution: Check data/member_name.txt file exists
+
+================================================================================
+SHARING WITH OTHERS
+================================================================================
+
+To give this application to another dairy:
+
+1. Copy the entire "dairy_project" folder
+2. Give them this folder
+3. They follow the same steps above
+
+OR
+
+You can run it on one computer and others can access it:
+1. Find your computer's IP address
+2. Others open browser and go to: http://YOUR_IP:5000
+
+================================================================================
+NEED HELP?
+================================================================================
+
+Contact: Kiran Dairy Support
+
+================================================================================
+                    Thank you for using Kiran Dairy!
+================================================================================
